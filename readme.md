@@ -21,10 +21,10 @@ $ yarn add bpad
  * Pads a string on left & right sides
  * evenly if possible
  *
- * @param {string} str - The string to be padded.
- * @param {int} width - The total length of the padded string.
- * @param {string} ch - The character to use when padding.
- * @param {boolean} left - If true asymmetric padding will occur on the left.
+ * @param {string}  str   - The string to be padded.
+ * @param {int}     width - The total length of the padded string.
+ * @param {string}  ch    - The character to use when padding.
+ * @param {boolean} left  - If true asymmetric padding will occur on the left.
  */
 function bpad (str, width, ch, left) {...}
 ```
