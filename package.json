@@ -4,7 +4,10 @@
   "description": "Leftpad and rightpad at the same time, aka balancedpad",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "precommit": "npm test",
+    "test": "jest --env node",
+    "coverage": "jest --coverage",
+    "report": "npm run coverage && serve coverage/lcov-report"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/jamesford/bpad/issues"
   },
-  "homepage": "https://github.com/jamesford/bpad#readme"
+  "homepage": "https://github.com/jamesford/bpad#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^22.1.4",
+    "serve": "^6.4.9"
+  }
 }
