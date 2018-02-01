@@ -1,0 +1,29 @@
+{
+  "name": "bpad",
+  "version": "0.1.0",
+  "description": "Leftpad and rightpad at the same time, aka balancedpad",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jamesford/bpad.git"
+  },
+  "keywords": [
+    "balancedpad",
+    "balance",
+    "pad",
+    "leftpad",
+    "rightpad",
+    "padding",
+    "string",
+    "repeat"
+  ],
+  "author": "Jamesford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesford/bpad/issues"
+  },
+  "homepage": "https://github.com/jamesford/bpad#readme"
+}
