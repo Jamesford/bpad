@@ -1,10 +1,14 @@
-/*
-  Balanced Pad
-
-  Pads on both left and right side until length is met.
-*/
 'use strict'
 
+/**
+ * Pads a string on left & right sides
+ * evenly if possible
+ *
+ * @param {string}  str   - The string to be padded.
+ * @param {int}     width - The total length of the padded string.
+ * @param {string}  ch    - The character to use when padding.
+ * @param {boolean} left  - If true asymmetric padding will occur on the left.
+ */
 module.exports = function bpad (str, width, ch, left) {
   // Default ch value, str & ch should be strings
   if (!ch && ch !== 0) ch = ' '
