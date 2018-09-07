@@ -1,6 +1,6 @@
-# bpad
+# bpad ![Drone CI Status](https://drone.stobbs.xyz/api/badges/jamesford/bpad/status.svg)
 
-↔️ Leftpad and rightpad at the same time, aka balancedpad 
+↔️ Leftpad and rightpad at the same time, aka balancedpad
 
 ## Install
 
