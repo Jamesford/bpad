@@ -1,4 +1,4 @@
-# bpad ![Drone CI Status](https://drone.stobbs.xyz/api/badges/Jamesford/bpad/status.svg)
+# bpad [![Drone build status](https://drone.stobbs.xyz/api/badges/Jamesford/bpad/status.svg)](https://drone.stobbs.xyz/Jamesford/bpad)
 
 ↔️ Leftpad and rightpad at the same time, aka balancedpad
 
